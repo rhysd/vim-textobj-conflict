@@ -6,6 +6,7 @@ Text Object for Conflicts on Merge
 Please use your favorite plugin manager and follow the instruction of it.  Below is an example for [neobundle.vim](https://github.com/Shougo/neobundle.vim).
 
 ```vim
+NeoBundle 'kana/vim-textobj-user'
 NeoBundle 'rhysd/vim-textobj-conflict'
 ```
 
@@ -19,7 +20,7 @@ This plugin depends on [vim-textobj-user](https://github.com/kana/vim-textobj-us
 
 Try `va=`, `vi=`, `da=` and so on when the buffer includes some conflicts.
 
-<!-- TODO: screen shot here -->
+![screenshot](https://raw.githubusercontent.com/rhysd/screenshots/master/vim-textobj-conflict/textobj-conflict.gif)
 
 ## Customization
 
