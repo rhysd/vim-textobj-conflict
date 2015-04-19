@@ -18,6 +18,8 @@ This plugin depends on [vim-textobj-user](https://github.com/kana/vim-textobj-us
 
 `i=` and `a=` operator-pending mappings are available.  `i=` selects the inner lines of either ours or theirs of the conflict.  `a=` selects the whole lines of either ours or theirs of the conflict (including markers).
 
+If you use above mappings outside a conflict, it jumps the cursor to next conflict.
+
 Try `va=`, `vi=`, `da=` and so on when the buffer includes some conflicts.
 
 ![screenshot](https://raw.githubusercontent.com/rhysd/screenshots/master/vim-textobj-conflict/textobj-conflict.gif)
