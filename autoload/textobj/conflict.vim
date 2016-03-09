@@ -96,8 +96,6 @@ function! s:select(inner)
         return 0
     endif
 
-    PP! next
-
     return s:selected_block(next[0], next[1], a:inner)
 endfunction
 
